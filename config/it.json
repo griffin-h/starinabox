@@ -1,0 +1,125 @@
+{
+ "language": {
+  "code": "it",
+  "name": "Italiano",
+  "alignment": "left",
+  "mode": "normal",
+  "translator": ""
+ },
+ "phrasebook": {
+  "title": "Stella in Scatola",
+  "language": "Sceglie una lingua",
+  "stages": [
+   "Sequenza Principale",
+   "Sequenza Principale",
+   "Gigante Rossa",
+   "Gigante Rossa",
+   "Gigante Rossa",
+   "Gigante Rossa",
+   "Gigante Rossa",
+   "Gigante Blu",
+   "Gigante Blu",
+   "Gigante Blu",
+   "Nana Bianca",
+   "Nana Bianca",
+   "Nana Bianca",
+   "Stella di Neutroni",
+   "Buco Nero",
+   "Obliterazione"
+  ],
+  "modes": {
+   "normal": "Normale",
+   "advanced": "Avanzato",
+   "toggle": "Toggle mode"
+  },
+  "about": {
+   "title": "Informazioni",
+   "content": "<p>Stella in Scatola si permette esplorare uno degli strumenti pi&#249; enigmatici dell'astronomia: il <a href=\"http://lcogt.net/book/h-r-diagram\">digramma Hertzsprung-Russell</a>.</p>\n<p>Quando si apre la scatola, c'&#232; una stella con massa uguale al Sole, ma si pu&#242; cambiare la massa come vuoi. Il percorso nel diagramma (a sinistra) dimostra il ciclo di vita della stella. Si pu&#242; animare il diagramma della stella per esaminare come si cambiano la sua luminosit&#224;, dimensione, temperatura superficiale, e massa nei pannelli a destra.</p>\n<p>Le vite delle stelle durano bilioni d'anni, ma gli eventi drammatici occuparono periodi relativamente corti. Nell'animazione, acceleriamo il tempo quando la stella non cambia molto e lo ritardiamo durante i fasi drammatici.</p>\n\n<h3>Controlli da Tastiera:</h3>\n%CONTROLLIST%\n<h3>Riconoscimenti</h3>\n<p><b>Disegno e <a href=\"https://github.com/zemogle/starinabox\">Sviluppo</a></b>: <a href=\"http://jyardley.co.uk\">Jon Yardley</a>, <a href=\"http://www.strudel.org.uk/\">Stuart Lowe</a>, <a href=\"http://lcogt.net/user/egomez\">Edward Gomez</a>, <a href=\"http://www.astro.cf.ac.uk/contactsandpeople/?page=full&id=151\">Haley Gomez</a> & Chris North</p>\n<p>Sostenuto da <a href=\"http://lcogt.net/\">LCOGT</a> & <a href=\"http://www.cf.ac.uk/\">Cardiff University</a></p>\n<p>Basato sulla ricerca della evoluzione stellare di <a href=\"http://astronomy.swin.edu.au/~jhurley/\">Jarrod Hurley</a>, <a href=\"https://www.astro.ru.nl/wiki/general/people/onno_pols\">Onno Pols</a> & <a href=\"http://www.ast.cam.ac.uk/~cat/\">Christopher Tout</a></p>"
+  },
+  "data": {
+   "title": "Tabella di Date",
+   "content": "Questo &#232; un sommario della stella attualmente scelto. Massa: <strong>%MASS%</strong>.</p>%TABLE%<p>Scaricare le date come %CSV%.</p>"
+  },
+  "keys": {
+   "play": "Iniziare",
+   "lid": "Aprire il coperchio",
+   "mode": "Scambiare il modo",
+   "size": "Pannello di dimensione",
+   "temperature": "Pannello di temperatura",
+   "luminosity": "Panello di luminosit&#224;",
+   "stage": "Panello di fase",
+   "mass": "Panello di massa"
+  },
+  "intro": {
+   "title": "Benvenuti!",
+   "content": "<p>Adesso sei proprietario orgoglioso di una Stella in Scatola.</p>\n<p>Dentro questa scatola, si pu&#242; animare i fasi differenti della vita di una stella e notare come si cambiano la sua luminosit&#224;, dimensione, e massa con il tempo.</p>\n<p>Apre la scatola e <strong>clicca il bottone play</strong> per iniziare l'animazione.</p>"
+  },
+  "open": "&#8249; Aprire il coperchio",
+  "close": "Cerrare il coperchio &#8250;",
+  "preparing": "La tua stella &#232; in preparazione.<br />Aspetta per favore...",
+  "sun": "Sole",
+  "stage": "Fase",
+  "radius": "Radio",
+  "radiusunit": "rispetto al Sole",
+  "duration": "Durazione",
+  "timescale": "milioni d'anni",
+  "longtime": "Molto tempo",
+  "lum": "Luminosit&#224;",
+  "lumunit": "rispetto al Sole",
+  "temp": "Temperatura",
+  "tempunit": "kelvin",
+  "cooldown": "Raffreddamento da %TEMP%",
+  "cooling": "Raffreddamento",
+  "mass": "Massa",
+  "massunit": "&#215; Sole",
+  "ms": "Sequenza Principale",
+  "caution": "Attenzione: Supernova Imminente",
+  "speeds": [
+   "velocissimo",
+   "veloce",
+   "normale",
+   "lento",
+   "lentissimo"
+  ],
+  "buttons": {
+   "play": "Iniziare/Fermare",
+   "reset": "Tornare al inizio della vita della tua stella",
+   "size": "Comparare le dimenzioni",
+   "temperature": "Temperatura superficiale",
+   "luminosity": "Luminosit&#224;",
+   "stage": "Fasi nella vita della tua stella",
+   "mass": "Massa"
+  },
+  "help": {
+   "tab": "Descrizione",
+   "content": {
+    "m0_2": "<h1>0.2 Times The Mass of The Sun</h1><h3>Main Sequence</h3><p>Stars around or less than half the mass of the Sun start off as low mass Main Sequence stars. Here, they are in very stable states where they fuse hydrogen atoms into helium as a source of energy.</p><img src='http://www.spaceanswers.com/wp-content/uploads/2013/01/Red-dwarf-main-image.jpg'/><h3>Red Giant </h3><p>When the core of the star runs out of hydrogen to fuse into helium, the outer layers of the star begin to swell and the surface temperature of the star cools, the star also changes appearance to become redder. Since stars of this mass are too small to initiate helium fusing in the core, the star burns out all of its hydrogen supply, leaving the helium core behind, as what is known as a 'Helium White Dwarf'.</p><img src='http://www.dailygalaxy.com/.a/6a00d8341bf7f753ef017ee8bb15b8970d-500wi'/>",
+    "m0_65": "<h1>0.65 Times The Mass of The Sun</h1><h3>Main Sequence</h3><p>Stars around or less than half the mass of the Sun start off as low mass Main Sequence stars. Here, they are in very stable states where they fuse hydrogen atoms into helium as a source of energy.</p><img src='http://www.spaceanswers.com/wp-content/uploads/2013/01/Red-dwarf-main-image.jpg'/><h3>Red Giant </h3><p>When the core of the star runs out of hydrogen to fuse into helium, the outer layers of the star begin to swell and the surface temperature of the star cools, the star also changes appearance to become redder. Since stars of this mass are too small to initiate helium fusing in the core, the star burns out all of its hydrogen supply, leaving the helium core behind, as what is known as a 'Helium White Dwarf'.</p><img src='http://www.dailygalaxy.com/.a/6a00d8341bf7f753ef017ee8bb15b8970d-500wi'/>",
+    "m1": "<h1>Stars With The Mass of The Sun</h1><h3>Main Sequence</h3><p>The main sequence stage is the longest inhabited stage by a star. Here the star remains stable for millions to billions of years, fusing hydrogen atoms into helium atoms as fuel.</p><h3>Red Giant</h3><div style='width:100%'><div style='float:left;width:200px'><img src='config/images/RedGiant.jpeg' style='width:95%'/></div><p>When all of the hydrogen in the core turns into helium, the outer layers of the star begin to swell and become redder as they do in stars of around 0.2-0.65 times the mass of the Sun. However, for stars the same mass as the Sun and up to 8 times the mass of the Sun, the core becomes hot enough to fuse helium into heavier elements such as carbon and oxygen. However they still aren't heavy enough to fuse carbon and oxygen into heavier elements in the core.</p></div><div style='clear:both'></div><h3>White Dwarf</h3><div style='width:100%'><div style='float:left;width:200px'> <img src='http://www.dailygalaxy.com/.a/6a00d8341bf7f753ef017ee8bb15b8970d-500wi' style='width:95%'/></div>Eventually the hydrogen and helium layers of the star fade away leaving a 'White Dwarf' similar to low mass stars.</p></div>",
+    "m2": "<h1>2 Times The Mass of The Sun</h1><h3>Main Sequence</h3><p>The main sequence stage is the longest inhabited stage by a star. Here the star remains stable for millions to billions of years, fusing hydrogen atoms into helium atoms as fuel.</p><h3>Red Giant</h3><img src='http://en.es-static.us/upl/2009/06/antares_m4_stargazerbob_300.jpg'/><p>When all of the hydrogen in the core turns into helium, the outer layers of the star begin to swell and become redder as they do in stars of around 0.2-0.65 times the mass of the Sun. However, for stars the same mass as the Sun and up to 8 times the mass of the Sun, the core becomes hot enough to fuse helium into heavier elements such as carbon and oxygen. However they still aren't heavy enough to fuse carbon and oxygen into heavier elements in the core. Eventually the hydrogen and helium layers of the star fade away leaving a 'Carbon/Oxygen White Dwarf' similar to low mass stars.</p><img src='http://www.dailygalaxy.com/.a/6a00d8341bf7f753ef017ee8bb15b8970d-500wi'/>",
+    "m4": "<h1>4 Times The Mass of The Sun</h1><h3>Main Sequence</h3><p>The main sequence stage is the longest inhabited stage by a star. Here the star remains stable for millions to billions of years, fusing hydrogen atoms into helium atoms as fuel.</p><h3>Red Giant</h3><img src='http://en.es-static.us/upl/2009/06/antares_m4_stargazerbob_300.jpg'/><p>When all of the hydrogen in the core turns into helium, the outer layers of the star begin to swell and become redder as they do in stars of around 0.2-0.65 times the mass of the Sun. However, for stars the same mass as the Sun and up to 8 times the mass of the Sun, the core becomes hot enough to fuse helium into heavier elements such as carbon and oxygen. However they still aren't heavy enough to fuse carbon and oxygen into heavier elements in the core. Eventually the hydrogen and helium layers of the star fade away leaving a 'Carbon/Oxygen White Dwarf' similar to low mass stars.</p><img src='http://www.dailygalaxy.com/.a/6a00d8341bf7f753ef017ee8bb15b8970d-500wi'/>",
+    "m6": "<h1>6 Times The Mass of The Sun</h1><h3>Main Sequence</h3><p>The main sequence stage is the longest inhabited stage by a star. Here the star remains stable for millions to billions of years, fusing hydrogen atoms into helium atoms as fuel.</p><h3>Red Giant</h3><img src='http://en.es-static.us/upl/2009/06/antares_m4_stargazerbob_300.jpg'/><p>When all of the hydrogen in the core turns into helium, the outer layers of the star begin to swell and become redder as they do in stars of around 0.2-0.65 times the mass of the Sun. However, for stars the same mass as the Sun and up to 8 times the mass of the Sun, the core becomes hot enough to fuse helium into heavier elements such as carbon and oxygen. However they still aren't heavy enough to fuse carbon and oxygen into heavier elements in the core. Eventually the hydrogen and helium layers of the star fade away leaving a 'Carbon/Oxygen White Dwarf' similar to low mass stars.</p><img src='http://www.dailygalaxy.com/.a/6a00d8341bf7f753ef017ee8bb15b8970d-500wi'/>",
+    "m10": "<h1>10 Times The Mass of The Sun</h1><h3> Main Sequence </h3><p>The main sequence stage is the longest inhabited stage by a star. Here the star remains stable for millions of years, fusing hydrogen atoms into helium atoms as fuel.</p><img src='http://www.spacetelescope.org/images/heic0516b/'/><h3> Red Giant </h3><p>When all of the hydrogen in the core turns into helium, the outer layers of the star begin to swell and become redder as they do in stars of around 1-6 times the mass of the Sun. However, for stars the same mass as the Sun and heavier, the core becomes hot enough to fuse helium into heavier elements such as carbon and oxygen. Stars 10 to 20 times the mass of the Sun will be able to initiate fusing of atoms like oxygen and carbon in the core. Eventually the star will have an onion like structure, with different elements in different layers, such as hydrogen, helium, carbon, oxygen and neon, but will stop at iron. Once fusion stops at Iron, there is no more nuclear reactions to stop the core from collapsing, upon doing so a supernova takes place, and all that is left is a Neutron star.</p><img src='http://www.nasa.gov/images/content/283511main_fermigrop_pulsarmodel_HI.jpg'/>",
+    "m20": "<h1>20 Times The Mass of The Sun</h1><h3> Main Sequence </h3><p>The main sequence stage is the longest inhabited stage by a star. Here the star remains stable for millions of years, fusing hydrogen atoms into helium atoms as fuel.</p><img src='http://www.spacetelescope.org/images/heic0516b/'/><h3> Red Giant </h3><p>When all of the hydrogen in the core turns into helium, the outer layers of the star begin to swell and become redder as they do in stars of around 1-6 times the mass of the Sun. However, for stars the same mass as the Sun and heavier, the core becomes hot enough to fuse helium into heavier elements such as carbon and oxygen. Stars 10 to 20 times the mass of the Sun will be able to initiate fusing of atoms like oxygen and carbon in the core. Eventually the star will have an onion like structure, with different elements in different layers, such as hydrogen, helium, carbon, oxygen and neon, but will stop at iron. Once fusion stops at Iron, there is no more nuclear reactions to stop the core from collapsing, upon doing so a supernova takes place, and all that is left is a Neutron star.</p><img src='http://www.nasa.gov/images/content/283511main_fermigrop_pulsarmodel_HI.jpg'/>",
+    "m30": "<h1>30 Times The Mass of The Sun</h1><h3> Main Sequence </h3><p>The main sequence stage is the longest inhabited stage by a star. Here the star remains stable for millions of years, fusing hydrogen atoms into helium atoms as fuel.</p><img src='http://www.spacetelescope.org/images/heic0516b/'/><h3> Red Giant </h3><img src='http://www.eso.org/public/archives/images/screen/wr124.jpg'/><p>When all of the hydrogen in the core turns into helium, the outer layers of the star begin to swell and become redder as they do in stars of around 1-6 times the mass of the Sun. Stars of 30 times the Sun, and even heavier will be able to initiate fusing of much heavier elements in the core, such as helium, carbon, oxygen and neon.</p><h3> Blue Giant</h3><p>Stars this heavy will have very strong stellar winds, which will blow away the outer layers of the star leaving the hotter interior on show. Due to the much hotter surface temperature the star will appear as a blue giant. Eventually the core will collapse, with a large supernova, however left over will be a black hole, an object with such a strong gravitational field, not even light can escape (hence it being called 'Black').</p><img src='http://www.spacetimetravel.org/galerie/sl218.jpg'/>",
+    "m40": "<h1>40 Times The Mass of The Sun</h1><h3> Main Sequence </h3><p>The main sequence stage is the longest inhabited stage by a star. Here the star remains stable for millions of years, fusing hydrogen atoms into helium atoms as fuel.</p><img src='http://www.spacetelescope.org/images/heic0516b/'/><h3> Red Giant </h3><img src='http://www.eso.org/public/archives/images/screen/wr124.jpg'/><p>When all of the hydrogen in the core turns into helium, the outer layers of the star begin to swell and become redder as they do in stars of around 1-6 times the mass of the Sun. Stars of 30 times the Sun, and even heavier will be able to initiate fusing of much heavier elements in the core, such as helium, carbon, oxygen and neon.</p><h3> Blue Giant</h3><p>Stars this heavy will have very strong stellar winds, which will blow away the outer layers of the star leaving the hotter interior on show. Due to the much hotter surface temperature the star will appear as a blue giant. Eventually the core will collapse, with a large supernova, however left over will be a black hole, an object with such a strong gravitational field, not even light can escape (hence it being called 'Black').</p><img src='http://www.spacetimetravel.org/galerie/sl218.jpg'/>"
+   }
+  },
+  "tutorial": [
+   "Benvenuti! Al momento hai una stella di 1 massa solare, ma si pu&#242; cambiarlo qui si vuoi.",
+   "Questa &#232; la tua stella al inizio della sua vita. La <span style=\"color:%COLOR%\">linea tratteggiata</span> indica come la luminosit&#224; e la temperatura della stella cambieranno durante la sua vita.",
+   "Clicca il bottone play per animare la tua stella."
+  ],
+  "captions": {
+   "rScales": "<h2>Massa</h2>\n<p>Questo diagramma dimostra come varia la massa della tua stella durante la sua vita. Le stelle perdono massa convertendo l'idrogeno all'elio e elementi pi&#249; grossi. Anche possono perdere massa via i venti, che rimuovono le sue superficie, e in momenti drammatici delle sue vite.</p>\n<p>Le stelle sonno massive, cos&#236; in vece di misurarle in chilogrammi, le misuriamo rispetto al nostro Sole. Una massa solare &#232; quasi due milioni di milioni di milioni di milioni di milioni chili!</p>",
+   "rStopwatch": "<h2>Fasi nella vita della tua stella</h2>\n<p>Questo cronometro indica il tempo relativo che passa la stella in ogni fase della sua vita. Nell'animazione, acceleriamo il tempo quando la stella non cambia molto e lo ritardiamo durante i fasi drammatici della vita della stella.</p>",
+   "rlum": "<h2>Luminosit&#224;</h2>\n<p>Come cambia la luminosit&#224; della tua stella rispetto alla luminosit&#224; attuale della nostra Sole (che ha una valore di 1 in questo misuratore).</p>\n<p>Il misuratore di luce anche si cambia di colore per abbinare la tua stella.</p> ",
+   "thermometer": "<h2>Temperatura superficiale</h2>\n<p>Come cambia la temperatura della tua stella con el tempo. I temperaturi sono dati in kelvin, che si abbrevia come K. Ricorda che:</p>\n<blockquote style=\"text-align:center;\">0&#176;C = 273 K</blockquote>",
+   "rCanvas": "<h2>Dimensione</h2>\n<p>Come cambia la dimensione e il colore della tua stella, rispetto ai condizioni attuale del Sole.</p>"
+  },
+  "error": {
+   "langload": "Couldn't load the language from %FILE%",
+   "starload": "The star failed to form. Please try again later."
+  }
+ }
+}
